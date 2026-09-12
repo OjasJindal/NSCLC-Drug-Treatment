@@ -1,0 +1,7 @@
+comparison,rows,columns,chi_square,df,p_value
+Treatment line vs response,3,6,38.1526,10,3.5699061190955045e-05
+Initial stage vs response,11,6,94.8991,50,0.00013174404845643585
+Regimen class vs response,7,6,48.5072,30,0.017633645644662906
+Smoking vs response,4,6,25.1693,15,0.047714904962070176
+EGFR status vs response,4,6,28.3463,15,0.019498980145703497
+ALK status vs response,3,6,23.3281,10,0.009598217647338996
