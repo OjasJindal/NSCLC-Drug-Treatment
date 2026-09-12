@@ -1,0 +1,7 @@
+column,values,binary
+progression_before_decision,"[0, 1, 2, 3, 4, 5, 6]",False
+prior_any_progression,"[0, 1]",True
+prior_platinum_exposed,"[0, 1]",True
+prior_io_exposed,"[0, 1]",True
+cand_reuses_prior_drug,"[0, 1]",True
+cand_class_seen_before,"[0, 1]",True
