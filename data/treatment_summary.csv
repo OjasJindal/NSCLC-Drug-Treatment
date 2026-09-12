@@ -1,0 +1,58 @@
+regimen_key,regimen_name,regimen_class,decision_count,unique_patients,objective_response_rate,disease_control_rate
+1,Abemaciclib+Pembrolizumab,Multi-agent-chemo,4,4,66.67,66.67
+2,Afatinib,EGFR-TKI,22,21,50.0,86.36
+3,Afatinib+Cetuximab,Multi-agent-chemo,1,1,0.0,100.0
+4,Alectinib,ALK-inhibitor,5,5,33.33,66.67
+5,Atezolizumab,Immunotherapy,8,8,83.33,100.0
+6,Bavituximab+Docetaxel,Multi-agent-chemo,2,2,50.0,100.0
+7,Bevacizumab,Single-agent-chemo,1,1,0.0,0.0
+8,Bevacizumab+Erlotinib,Multi-agent-chemo,2,2,0.0,100.0
+9,Bevacizumab+Osimertinib,Multi-agent-chemo,2,2,50.0,50.0
+10,Brigatinib,ALK-inhibitor,4,4,33.33,66.67
+11,Capecitabine,Single-agent-chemo,2,2,100.0,100.0
+12,Capecitabine+Paclitaxel,Multi-agent-chemo,1,1,0.0,100.0
+13,Carboplatin+Erlotinib+Pemetrexed,Platinum-doublet,2,2,0.0,50.0
+14,Carboplatin+Etoposide VP16,Platinum-doublet,3,3,33.33,66.67
+15,Carboplatin+Gefitinib,Platinum-doublet,2,2,100.0,100.0
+16,Carboplatin+Gefitinib+Pemetrexed,Platinum-doublet,1,1,100.0,100.0
+17,Carboplatin+Gemcitabine,Platinum-doublet,7,7,16.67,66.67
+18,Carboplatin+Paclitaxel,Platinum-doublet,57,57,33.93,53.57
+19,Carboplatin+Paclitaxel+Pembrolizumab,Chemo-immunotherapy,2,2,0.0,50.0
+20,Carboplatin+Pembrolizumab+Pemetrexed,Chemo-immunotherapy,2,2,0.0,50.0
+21,Carboplatin+Pemetrexed,Platinum-doublet,35,35,39.39,72.73
+22,Carboplatin+Vinorelbine,Platinum-doublet,14,14,57.14,71.43
+23,Ceritinib,ALK-inhibitor,4,4,25.0,50.0
+24,Cisplatin+Gemcitabine,Platinum-doublet,3,3,33.33,100.0
+25,Cisplatin+Gemcitabine+Necitumumab,Platinum-doublet,2,2,100.0,100.0
+26,Cisplatin+Pemetrexed,Platinum-doublet,13,13,23.08,69.23
+27,Cisplatin+Vinorelbine,Platinum-doublet,8,8,50.0,75.0
+28,Crizotinib,ALK-inhibitor,11,11,30.0,60.0
+29,Custirsen(OGX-011)+Docetaxel,Multi-agent-chemo,1,1,100.0,100.0
+30,Cyclophosphamide+Doxorubicin+Vincristine,Multi-agent-chemo,1,1,100.0,100.0
+31,Daratumumab,Single-agent-chemo,1,1,100.0,100.0
+32,Daratumumab+Nivolumab,Multi-agent-chemo,4,4,75.0,100.0
+33,Docetaxel,Single-agent-chemo,53,53,70.0,86.0
+34,Docetaxel+Nintedanib,Multi-agent-chemo,15,15,35.71,57.14
+35,Durvalumab (MEDI4736),Immunotherapy,11,11,45.45,81.82
+36,Emibetuzumab (LY2875358)+Erlotinib,Multi-agent-chemo,1,1,0.0,100.0
+37,Emibetuzumab (LY2875358)+Pemetrexed,Multi-agent-chemo,1,1,100.0,100.0
+38,Erlotinib,EGFR-TKI,34,32,37.5,65.62
+39,Erlotinib+Onartuzumab (MetMAb),Multi-agent-chemo,1,1,100.0,100.0
+40,Gefitinib,EGFR-TKI,16,16,57.14,78.57
+41,Gefitinib+Pemetrexed,Multi-agent-chemo,1,1,100.0,100.0
+42,Gemcitabine,Single-agent-chemo,14,14,45.45,81.82
+43,Gemcitabine+Lurbinectedin(PM1183),Multi-agent-chemo,1,1,100.0,100.0
+44,Gemcitabine+PM060184,Multi-agent-chemo,1,1,100.0,100.0
+45,Gemcitabine+Vinorelbine,Multi-agent-chemo,1,1,100.0,100.0
+46,Ipilimumab+Nivolumab,Immunotherapy,8,8,20.0,60.0
+47,Ipilimumab+Osimertinib,Multi-agent-chemo,1,1,0.0,0.0
+48,Irvalec,Single-agent-chemo,3,3,100.0,100.0
+49,Nintedanib,Single-agent-chemo,1,1,0.0,0.0
+50,Nivolumab,Immunotherapy,66,66,52.46,70.49
+51,Osimertinib,EGFR-TKI,21,21,35.0,60.0
+52,Paclitaxel,Single-agent-chemo,94,91,40.7,68.6
+53,Paclitaxel+Pemetrexed+Prexasertib(LY2606368),Multi-agent-chemo,1,1,100.0,100.0
+54,Pembrolizumab,Immunotherapy,13,13,25.0,25.0
+55,Pemetrexed,Single-agent-chemo,25,25,65.22,86.96
+56,Trabectidina,Single-agent-chemo,1,1,100.0,100.0
+57,Vinorelbine,Single-agent-chemo,26,26,56.0,60.0
