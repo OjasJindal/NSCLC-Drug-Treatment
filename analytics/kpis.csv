@@ -1,0 +1,11 @@
+KPI,Value
+Unique patients,391.0
+Treatment decisions,637.0
+Unique regimens,57.0
+Unique regimen classes,7.0
+Unique candidate drugs represented,40.0
+DDI edges,493.0
+Objective response rate (%),46.71
+Disease control rate (%),70.49
+Mean prior treatment lines,1.5
+Decisions with prior progression,471.0
