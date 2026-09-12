@@ -5,12 +5,15 @@ End-to-end Data Analytics portfolio project built around an NSCLC drug-recommend
 ## Dashboard
 
 The Power BI report contains six pages:
+
 1. Executive Overview
 2. Patient & Disease Profile
 3. Treatment Patterns
 4. Response & Outcomes
 5. Drug Interaction Analytics
 6. Recommendation & Model Analytics
+
+The dashboard is deployed to Power BI Service.
 
 ## Dataset profile
 
@@ -25,12 +28,34 @@ The Power BI report contains six pages:
 ## Architecture
 
 ```text
-NSCLC Capstone → Data Audit → Analytical Data Model → Python EDA → SQL Analytics → Power BI
+NSCLC Capstone
+      ↓
+Data Audit & QA
+      ↓
+Relational Analytical Model
+      ↓
+Python EDA + Statistical Analysis
+      ↓
+SQL Analytics
+      ↓
+Power BI / DAX Dashboard
+      ↓
+Recommendation & Model Evaluation
 ```
 
-The project uses a treatment-decision fact grain with patient, regimen, outcome and drug dimensions.
+## Repository structure
 
-## Analytical questions
+```text
+.
+├── analytics/        # Dashboard-ready aggregate analytical outputs
+├── data/             # Public-safe dimensions and aggregate tables
+├── docs/             # Findings and Power BI specification
+├── model/            # Model evaluation outputs
+├── scripts/          # Reproducible Python analysis
+└── sql/              # Analyst query pack
+```
+
+## Key analytical questions
 
 - How does treatment volume change across later treatment lines?
 - Which regimen classes dominate treatment?
@@ -38,20 +63,26 @@ The project uses a treatment-decision fact grain with patient, regimen, outcome 
 - Which candidate drugs are most frequently represented?
 - Which drugs are structurally central in the DDI network?
 - Where are data-quality and missingness limitations concentrated?
-- How can model-derived drug-interaction signals be surfaced without presenting them as confirmed clinical harm?
+- How can model-derived interaction signals be surfaced without presenting them as confirmed clinical harm?
 
-## Methodology notes
+## Key findings
 
-- `progression_before_decision` is treated as a count-like field; a prior-progression decision is defined as **value > 0**, not by summing the field.
+The later-line observational dataset contains 637 treatment decisions across 391 patients. The observed objective-response rate is 46.71% and observed disease-control rate is 70.49%. Treatment-line and molecular-status analyses are available as aggregate tables under `analytics/`.
+
+These are descriptive associations, not causal treatment-effect estimates.
+
+## Methodology guardrails
+
+- `progression_before_decision` is count-like; a prior-progression decision is defined as **value > 0**, not by summing the field.
 - Patient-level splitting is required for predictive evaluation to reduce leakage.
 - Response-derived features such as `has_response` / `Resp_*` must be excluded when predicting the response label itself.
-- The recommendation extension is not a causal or individualized clinical-benefit claim.
-- Predicted DDI links are analytical/model signals, not confirmed adverse events.
+- Recommendation/model outputs are not causal or individualized clinical-benefit claims.
+- Predicted DDI links are model/graph signals, not confirmed adverse events.
 
 ## Privacy
 
-Raw patient-level healthcare data is intentionally **not published in this public repository**. Public artifacts should be anonymized/aggregated outputs, documentation and reproducible project materials.
+This public repository intentionally excludes raw patient-level healthcare records and other sensitive source tables. Public artifacts are aggregated, anonymized, or structural/model outputs suitable for portfolio demonstration.
 
 ## Tools
 
-Python · Pandas · SQL · Power BI · DAX · Knowledge Graphs · Drug Interaction Analytics · Statistical EDA
+**Python · Pandas · SQL · Power BI · DAX · Knowledge Graphs · Drug Interaction Analytics · Statistical EDA**
