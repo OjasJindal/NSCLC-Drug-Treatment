@@ -1,0 +1,14 @@
+column,patients_with_multiple_non_null_values
+gender,0
+age_group,0
+smoking,0
+stage_initial,0
+histology,0
+comorbidity_any,0
+n_comorbidity,0
+diagnosis_year,0
+is_nsclc,0
+egfr_status,0
+alk_status,0
+molmar_tested,0
+pdl1_value,0
