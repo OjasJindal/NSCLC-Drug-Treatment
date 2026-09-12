@@ -1,0 +1,7 @@
+outcome_key,resp_code,disease_control,objective_response
+1,EE,1,0
+2,NE,0,0
+3,NR,0,0
+4,PR,1,1
+5,RC,0,0
+6,RP,0,0
