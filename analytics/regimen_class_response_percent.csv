@@ -1,0 +1,8 @@
+candidate_regimen_class,EE,NE,NR,PR,RC,RP
+ALK-inhibitor,25.0,16.67,0.0,25.0,0.0,33.33
+Chemo-immunotherapy,50.0,0.0,0.0,0.0,0.0,50.0
+EGFR-TKI,26.88,5.38,3.23,36.56,4.3,23.66
+Immunotherapy,16.98,10.38,8.49,34.91,8.49,20.75
+Multi-agent-chemo,21.43,7.14,4.76,50.0,0.0,16.67
+Platinum-doublet,26.53,2.72,2.04,31.97,5.44,31.29
+Single-agent-chemo,19.0,7.69,4.52,45.7,4.52,18.55
