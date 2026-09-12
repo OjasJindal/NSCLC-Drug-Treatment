@@ -1,0 +1,48 @@
+table,column,description,role
+dim_patient,patient_key,Surrogate patient key,Primary key
+dim_patient,patient_id,Original patient identifier from capstone,Business identifier
+dim_patient,gender,Patient gender category,Dimension
+dim_patient,age_group,Age band,Dimension
+dim_patient,smoking,Smoking category,Dimension
+dim_patient,stage_initial,Initial NSCLC stage,Dimension
+dim_patient,histology,Tumor histology,Dimension
+dim_patient,comorbidity_any,Any recorded comorbidity,Dimension
+dim_patient,n_comorbidity,Number of recorded comorbidities,Measure/attribute
+dim_patient,diagnosis_year,Year of diagnosis,Time attribute
+dim_patient,egfr_status,EGFR status,Biomarker attribute
+dim_patient,alk_status,ALK status,Biomarker attribute
+dim_patient,molmar_tested,Whether molecular markers were tested,Data-quality/clinical attribute
+dim_patient,pdl1_value,PD-L1 value when present,Biomarker attribute
+fact_treatment_decision,decision_id,Unique treatment decision key,Primary key
+fact_treatment_decision,patient_key,Patient foreign key,Foreign key
+fact_treatment_decision,decision_line,Later-line treatment decision number,Treatment sequence
+fact_treatment_decision,t_decision,Decision date,Date
+fact_treatment_decision,regimen_key,Regimen foreign key,Foreign key
+fact_treatment_decision,outcome_key,Response outcome foreign key,Foreign key
+fact_treatment_decision,candidate_regimen_class,Treatment class,Dimension-like attribute
+fact_treatment_decision,resp_code,Observed response code,Outcome
+fact_treatment_decision,label_disease_control,Derived disease-control label supplied by capstone,Outcome
+fact_treatment_decision,label_objective_response,Derived objective-response label supplied by capstone,Outcome
+fact_treatment_decision,n_prior_lines,Number of prior treatment lines,History
+fact_treatment_decision,prior_any_progression,Any prior progression,History
+fact_treatment_decision,n_prior_distinct_drugs,Number of distinct prior drugs,History
+fact_treatment_decision,prior_platinum_exposed,Prior platinum exposure,History
+fact_treatment_decision,prior_io_exposed,Prior immunotherapy exposure,History
+fact_treatment_decision,cand_reuses_prior_drug,Candidate reuses a prior drug,Candidate feature
+fact_treatment_decision,cand_class_seen_before,Candidate class seen before,Candidate feature
+fact_decision_drug,decision_id,Treatment decision foreign key,Foreign key
+fact_decision_drug,drug_key,Candidate drug foreign key,Foreign key
+dim_drug,drug_key,Surrogate drug key,Primary key
+dim_drug,drug_name,Drug name,Dimension
+dim_regimen,regimen_key,Surrogate regimen key,Primary key
+dim_regimen,regimen_name,Exact regimen name,Dimension
+dim_regimen,regimen_class,Regimen class,Dimension
+dim_outcome,outcome_key,Surrogate outcome key,Primary key
+dim_outcome,resp_code,Response code,Dimension
+dim_outcome,disease_control,Disease-control flag,Derived outcome
+dim_outcome,objective_response,Objective-response flag,Derived outcome
+fact_ddi,ddi_id,DDI edge key,Primary key
+fact_ddi,drugA_key,First drug foreign key,Foreign key
+fact_ddi,drugB_key,Second drug foreign key,Foreign key
+fact_ddi,interaction_type,DDI category,Dimension
+fact_ddi,direction,Increase/decrease direction,Dimension
