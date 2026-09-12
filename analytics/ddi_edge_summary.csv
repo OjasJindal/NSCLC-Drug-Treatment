@@ -1,0 +1,7 @@
+interaction_type,direction,ddi_edges
+excretion,decrease,47
+metabolism,decrease,91
+metabolism,increase,37
+other/unknown,increase,192
+serum_concentration,decrease,47
+serum_concentration,increase,79
