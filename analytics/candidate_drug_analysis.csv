@@ -1,0 +1,41 @@
+drug_name,candidate_decisions,patients
+Paclitaxel,155,149
+Carboplatin,125,118
+Pemetrexed,81,80
+Nivolumab,78,78
+Docetaxel,71,71
+Vinorelbine,49,49
+Erlotinib,40,37
+Gemcitabine,29,29
+Cisplatin,26,26
+Osimertinib,24,24
+Afatinib,23,21
+Pembrolizumab,21,21
+Gefitinib,20,20
+Nintedanib,16,16
+Durvalumab (MEDI4736),11,11
+Crizotinib,11,11
+Ipilimumab,9,9
+Atezolizumab,8,8
+Daratumumab,5,5
+Alectinib,5,5
+Bevacizumab,5,5
+Ceritinib,4,4
+Brigatinib,4,4
+Abemaciclib,4,4
+Irvalec,3,3
+Capecitabine,3,3
+Etoposide VP16,3,3
+Bavituximab,2,2
+Emibetuzumab (LY2875358),2,2
+Necitumumab,2,2
+Custirsen(OGX-011),1,1
+Cyclophosphamide,1,1
+Doxorubicin,1,1
+Cetuximab,1,1
+Onartuzumab (MetMAb),1,1
+Lurbinectedin(PM1183),1,1
+PM060184,1,1
+Prexasertib(LY2606368),1,1
+Trabectidina,1,1
+Vincristine,1,1
