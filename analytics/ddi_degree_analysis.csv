@@ -1,0 +1,48 @@
+drug_key,ddi_connections,drug_name
+25,32,Etoposide VP16
+47,32,Topotecan
+52,31,Vincristine
+21,31,Doxorubicin
+16,30,Cyclophosphamide
+42,30,Paclitaxel
+31,30,Irinotecan
+17,30,Dabrafenib
+20,29,Docetaxel
+29,28,Gemcitabine
+38,28,Olaparib
+26,28,Everolimus
+40,27,Osimertinib
+24,27,Erlotinib
+14,26,Crizotinib
+53,26,Vinorelbine
+11,25,Ceritinib
+33,25,Lorlatinib
+48,25,Trabectidina
+44,24,Pemetrexed
+36,24,Nintedanib
+1,23,Abemaciclib
+8,23,Capecitabine
+13,22,Cisplatin
+9,22,Capmatinib
+28,22,Gefitinib
+7,21,Brigatinib
+6,21,Bevacizumab
+3,20,Alectinib
+30,20,Ipilimumab
+2,19,Afatinib
+46,19,Temozolomide
+10,19,Carboplatin
+5,12,Bavituximab
+4,12,Atezolizumab
+12,12,Cetuximab
+19,12,Demcizumab
+22,12,Durvalumab (MEDI4736)
+23,12,Emibetuzumab (LY2875358)
+43,12,Pembrolizumab
+18,12,Daratumumab
+35,12,Necitumumab
+37,12,Nivolumab
+39,12,Onartuzumab (MetMAb)
+49,9,Trametinib
+50,5,Vadimezan (ASA404)
+34,1,Lurbinectedin(PM1183)
