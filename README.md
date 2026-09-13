@@ -2,9 +2,11 @@
 
 End-to-end Data Analytics portfolio project built around an NSCLC drug-recommendation research capstone.
 
-## Dashboard
+## 📊 Live Dashboard
 
-The Power BI report contains six pages:
+**[View the Power BI Dashboard](https://app.powerbi.com/groups/me/reports/a0d0c846-52d4-4792-a003-127656f138d5/b45757afca32adcd895a?experience=power-bi&clientSideAuth=0)**
+
+Interactive Power BI report with six pages:
 
 1. Executive Overview
 2. Patient & Disease Profile
@@ -12,8 +14,6 @@ The Power BI report contains six pages:
 4. Response & Outcomes
 5. Drug Interaction Analytics
 6. Recommendation & Model Analytics
-
-The dashboard is deployed to Power BI Service.
 
 ## Dataset profile
 
